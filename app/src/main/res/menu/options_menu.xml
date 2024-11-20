@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/option1"
+        android:title="Option 1"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/option2"
+        android:title="Option 2"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/option3"
+        android:title="Option 3"
+        android:showAsAction="never" />
+
+</menu>

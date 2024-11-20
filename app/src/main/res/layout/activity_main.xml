@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/w2evinylwp"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/button_options_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Appbar With Options Menu"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_context_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textColor="@color/white"
+        android:text="Contextual Menu" />
+
+    <Button
+        android:id="@+id/button_popup_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textColor="@color/white"
+        android:text="Popup Menu" />
+
+    <Button
+        android:id="@+id/button_dialogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textColor="@color/white"
+        android:text="Dialogs" />
+
+    <Button
+        android:id="@+id/button_pickers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textColor="@color/white"
+        android:text="Pickers" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Basic actions -->
+    <item
+        android:id="@+id/action_delete"
+        android:title="Delete"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"/>
+
+    <!-- Submenu -->
+    <item
+        android:id="@+id/context_menu_folder"
+        android:title="Context Menu">
+
+        <menu>
+            <item
+                android:id="@+id/context_option_1"
+                android:title="Context Option 1"/>
+            <item
+                android:id="@+id/context_option_2"
+                android:title="Context Option 2"/>
+            <item
+                android:id="@+id/context_option_3"
+                android:title="Context Option 3"/>
+        </menu>
+    </item>
+
+</menu>

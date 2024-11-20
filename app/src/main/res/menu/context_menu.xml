@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/context_option1"
+        android:title="Context Option 1"
+        android:icon="@android:drawable/ic_menu_delete" />
+
+    <item
+        android:id="@+id/context_option2"
+        android:title="Context Option 2"
+        android:icon="@android:drawable/ic_menu_share" />
+</menu>

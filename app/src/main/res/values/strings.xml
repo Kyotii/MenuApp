@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MenuAppli</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+    <string name="title_activity_options_menu">OptionsMenuActivity</string>
+    <string name="title_activity_context_menu">ContextMenuActivity</string>
+    <string name="title_activity_popup_menu">PopupMenuActivity</string>
+    <string name="title_activity_dialogs">DialogsActivity</string>
+    <string name="title_activity_pickers">PickersActivity</string>
+</resources>
